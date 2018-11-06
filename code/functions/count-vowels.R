@@ -1,8 +1,8 @@
 #Reverse Chars
 #' @title count-vowels
-#' @description reverses the characters in a string in R
+#' @description creates a table with the numeric counts for each value in a string
 #' @param x a string
-#' @return the reverse of a string
+#' @return values with names
 count_vowels <- function(x){
   
   ltrs <- tolower(strsplit(x, "")[[1]])
