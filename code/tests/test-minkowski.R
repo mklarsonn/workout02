@@ -20,3 +20,4 @@ test_that("minkowski works as expected", {
   expect_error(minkowski(point1, point2, p = 0.5))
   expect_error(minkowski(point1, point2, p = 'min'))
 })
+

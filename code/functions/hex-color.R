@@ -1,0 +1,32 @@
+# Hex Color
+#' @title is_hex
+#' @description tells whether or not the input string is a valid hex color without alpha transparency
+#' @param x a sting
+#' @return boolean
+#' 
+install.packages("berryFunctions")
+library(berryFunctions)
+is_hex <- function(x){
+  if (is.character(x)==FALSE){
+    stop("invalid input; a string was expected")
+  }
+  else if (is.error(col2rgb(x))==FALSE){
+    return (TRUE)
+  }
+  else {
+    return (FALSE)
+  }
+}
+
+is_hex_alpha <- function(x){
+  if (is.character(x)==FALSE){
+    stop("invalid input; a string was expected")
+  }
+  else if (is.error(col2rgb(x, alpha = TRUE))==FALSE){
+    return (TRUE)
+  }
+  else {
+    return (FALSE)
+  }
+}
+

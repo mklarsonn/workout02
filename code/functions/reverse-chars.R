@@ -1,4 +1,4 @@
-#Minkowski Distance
+#Reverse Chars
 #' @title reverse-chars
 #' @description reverses the characters in a string in R
 #' @param x a string
@@ -10,3 +10,4 @@ reverse_chars <- function(x){
   return(reverse)
   }
 reverse_chars("Hello my name is MK Larson")
+reverse_chars("car_cat")
