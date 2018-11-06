@@ -3,7 +3,7 @@
 #' @description tells whether or not the input string is a valid hex color without alpha transparency
 #' @param x a sting
 #' @return boolean
-#' 
+
 install.packages("berryFunctions")
 library(berryFunctions)
 is_hex <- function(x){
@@ -17,6 +17,11 @@ is_hex <- function(x){
     return (FALSE)
   }
 }
+# Hex Color Alpha
+#' @title is_hex_alpha
+#' @description tells whether or not the input string is a valid hex color with alpha transparency
+#' @param x a sting
+#' @return boolean
 
 is_hex_alpha <- function(x){
   if (is.character(x)==FALSE){
