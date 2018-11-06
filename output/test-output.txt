@@ -1,15 +1,10 @@
 ✔ | OK F W S | Context
-⠏ |  0       | Tests for minkowski()⠋ |  0 1     | Tests for minkowski()✖ |  0 1     | Tests for minkowski()
-────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
-test-minkowski.R:12: error: minkowski works as expected
-could not find function "minkowski"
-1: expect_equal(minkowski(point1, point2, p = 1), 2) at ../code/tests/test-minkowski.R:12
-2: quasi_label(enquo(object), label)
-3: eval_bare(get_expr(quo), get_env(quo))
-────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+⠏ |  0       | Test for is-hex-color⠋ |  1       | Test for is-hex-color⠙ |  2       | Test for is-hex-color⠹ |  3       | Test for is-hex-color⠸ |  4       | Test for is-hex-color⠼ |  5       | Test for is-hex-color⠴ |  6       | Test for is-hex-color⠦ |  7       | Test for is-hex-color⠧ |  8       | Test for is-hex-color⠇ |  9       | Test for is-hex-color⠏ | 10       | Test for is-hex-color⠋ | 11       | Test for is-hex-color⠙ | 12       | Test for is-hex-color⠹ | 13       | Test for is-hex-color✔ | 13       | Test for is-hex-color
+⠏ |  0       | Tests for minkowski()⠋ |  1       | Tests for minkowski()⠙ |  2       | Tests for minkowski()⠹ |  3       | Tests for minkowski()⠸ |  4       | Tests for minkowski()⠼ |  5       | Tests for minkowski()⠴ |  6       | Tests for minkowski()⠦ |  7       | Tests for minkowski()⠧ |  8       | Tests for minkowski()✔ |  8       | Tests for minkowski()
+⠏ |  0       | Test for reverse_chars⠋ |  1       | Test for reverse_chars⠙ |  2       | Test for reverse_chars⠹ |  3       | Test for reverse_chars⠸ |  4       | Test for reverse_chars⠼ |  5       | Test for reverse_chars⠴ |  6       | Test for reverse_chars✔ |  6       | Test for reverse_chars
 
-══ Results ═════════════════════════════════════════════════════════════════════════════════════════════════════════════════════
-OK:       0
-Failed:   1
+══ Results ═══════════════════════════════════════════════════════════════════════
+OK:       27
+Failed:   0
 Warnings: 0
 Skipped:  0

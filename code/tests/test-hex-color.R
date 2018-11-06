@@ -1,4 +1,5 @@
-context("Test for is-hex-color") test_that("is_hex() works as expected", {
+context("Test for is-hex-color") 
+test_that("is_hex() works as expected", {
   expect_true(is_hex("#FF00A7"))
   expect_true(is_hex("#ff0000")) 
   expect_true(is_hex("#123456")) 

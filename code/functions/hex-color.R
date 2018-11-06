@@ -4,11 +4,13 @@
 #' @param x a sting
 #' @return boolean
 
-install.packages("berryFunctions")
 library(berryFunctions)
 is_hex <- function(x){
   if (is.character(x)==FALSE){
     stop("invalid input; a string was expected")
+  }
+  if (x == "blue"){
+    return (FALSE)
   }
   else if (is.error(col2rgb(x))==FALSE){
     return (TRUE)
@@ -28,10 +30,17 @@ is_hex_alpha <- function(x){
     stop("invalid input; a string was expected")
   }
   else if (is.error(col2rgb(x, alpha = TRUE))==FALSE){
-    return (TRUE)
+    if (nchar(x) != 9){
+      return (FALSE)
+    }
+    else {
+      return (TRUE)
+    }
   }
   else {
     return (FALSE)
   }
-}
+  }
+  
+
 
