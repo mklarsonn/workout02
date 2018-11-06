@@ -1,0 +1,15 @@
+✔ | OK F W S | Context
+⠏ |  0       | Tests for minkowski()⠋ |  0 1     | Tests for minkowski()✖ |  0 1     | Tests for minkowski()
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+test-minkowski.R:12: error: minkowski works as expected
+could not find function "minkowski"
+1: expect_equal(minkowski(point1, point2, p = 1), 2) at ../code/tests/test-minkowski.R:12
+2: quasi_label(enquo(object), label)
+3: eval_bare(get_expr(quo), get_env(quo))
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+══ Results ═════════════════════════════════════════════════════════════════════════════════════════════════════════════════════
+OK:       0
+Failed:   1
+Warnings: 0
+Skipped:  0
